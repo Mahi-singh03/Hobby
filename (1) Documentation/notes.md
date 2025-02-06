@@ -17,3 +17,22 @@ Database Connection
 --
 * create the database connection in root/lib/db.ts
 
+
+Resend
+--
+
+* create the resend connection in root/lib/resend.ts
+* create the resend.ts using the resend API key and export it
+
+
+* create root/Emails/VarificationEmail.tsx
+* for this use the use NPM package @react-email/components for the email template
+* chose the email templete 
+
+
+* Create the SendVarificationEmail.tsx file in root/src/Helpers/SendVarificationEmail.tsx
+* import the resend from the root/lib/resend.ts
+* import the VarificationEmail from the root/Emails/VarificationEmail.tsx ro the root/src/Helpers/SendVarificationEmail.tsx
+
+* Stenderedizing the resoponse:
+* createt the root/src/types/SignipResponseAPI.ts
