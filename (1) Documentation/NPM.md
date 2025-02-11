@@ -24,3 +24,8 @@ Required NPM
 6) reaxt-email
 
         npm install @react-email/components
+
+7) bcryptjs
+
+        npm install bcrypt
+

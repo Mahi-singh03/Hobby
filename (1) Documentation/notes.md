@@ -16,6 +16,7 @@ Create the Schema using Zod
 Database Connection
 --
 * create the database connection in root/lib/db.ts
+* put the credentials in the .env file
 
 
 Resend
@@ -36,3 +37,16 @@ Resend
 
 * Stenderedizing the resoponse:
 * createt the root/src/types/SignipResponseAPI.ts
+* create the functionality
+
+
+API Routes ( Email Verification)
+--
+
+*  create the folder src/app/api/Signup
+* create the routes.ts file in the src/app/api/Signup folder
+        
+        it is madatiory to use the name route.ts as the file name in any API folder
+
+* impoet the db connect from the root/lib/ConnectDB.ts
+* import the SignupUser from the root/Models/Singup.ts
